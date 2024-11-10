@@ -1,6 +1,6 @@
 {
   "name": "Ubuntu with Hugo",
-  "dockerFile": "../Dockerfile", // 使用 Dockerfile 來創建容器
+  "dockerFile": "Dockerfile", // 使用 Dockerfile 來創建容器
   "context": "..", // 指定上下文為項目根目錄
   "postCreateCommand": "hugo version", // 容器創建後運行的命令，驗證 Hugo 版本
   "extensions": [
